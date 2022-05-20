@@ -1,5 +1,6 @@
 body {
     margin: 0;
+
 }
 
 .header {
@@ -12,12 +13,9 @@ body {
 
 .left {
     font-size: 24px;
-    padding-left: 180px;
+    padding-left: 168px;
     color: #F9FAF8;
     font-weight: bold;
-
-    box-sizing: border-box;
-
 
 }
 
@@ -121,7 +119,7 @@ img {
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
-    max-width: 800px;
+    max-width: 1000px;
     color: #1F2937;
     margin-top: 50px;
 }
@@ -135,7 +133,7 @@ img {
 
    
 
-    padding-left: 800px;
+    padding-left: 920px;
     padding-bottom: 50px;
 
     margin-bottom: 50px;
