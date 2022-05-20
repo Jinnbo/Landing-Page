@@ -17,6 +17,8 @@ body {
     font-weight: bold;
 
     box-sizing: border-box;
+
+
 }
 
 .right {
@@ -42,7 +44,8 @@ body {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    
+
+    font-family: sans-serif;
 
 }
 
@@ -93,18 +96,101 @@ body {
     display: flex;
     justify-content: center;
     gap: 30px;
+    padding-bottom: 50px;
 
-    border: solid red;
+    text-align: center;
 }
 
-
+.info {
+    max-width: 200px;
+}
 
 img {
     width: 150px;
     height: 150px;
+}
 
-    border: solid red;
+.quote-container {
+    background-color: #E5E7EB;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    max-width: 800px;
+    color: #1F2937;
+    margin-top: 50px;
 }
 
 
+.author {
+    font-size: 25px;
+    font-weight: bold;
+    color: #1F2937;
+    background-color: #E5E7EB;
 
+   
+
+    padding-left: 800px;
+    padding-bottom: 50px;
+
+    margin-bottom: 50px;
+}
+
+.banner {
+    margin: auto;
+
+    display: flex;
+    gap: 140px;
+    
+    width: 800px;
+    padding: 50px 80px;  
+    margin-bottom: 50px;
+    border-radius: 10px;
+
+    background-color: #3882F6;
+}
+
+.banner-title {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.banner-text {
+    color: #d4d4d6;
+    font-size: 20px;
+}
+
+.right-banner {
+    display: flex;
+    align-items: center;
+}
+
+.sign-up-two {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: #F9FAF8 solid;
+
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.creator {
+    color:#F9FAF8;
+    font-size: 16px;
+}
